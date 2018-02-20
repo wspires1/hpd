@@ -8,5 +8,10 @@ pipeline {
         sh 'ls -l'
       }
     }
+    stage('test') {
+      steps {
+        echo 'Estrou testando'
+      }
+    }
   }
 }
